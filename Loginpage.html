@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign up page</title>
+ <style>
+    
+    .inp
+    {
+        background-color: rgb(133, 207, 207);
+        background-image: url(imgone.png);
+           border: solid black 2px;
+           border-radius: 5px;
+           height: 400px;
+           width: 400px;
+           margin-top: 140px;
+           padding-top: 30px;
+           
+
+    }
+    #butt :hover{
+        background-color: aqua;
+    }
+   
+    </style>
+
+</head>
+<body  style="background-color: rgb(82, 116, 82);">
+
+<form action="Login" method="post">
+<h3><marquee>Welcome to the sign up page</marquee></h3>
+ <center>
+    <div class="inp">
+     <input type="text" placeholder="enter your full name" id="nm" name="no" style="padding: 5px; width: 250px; height: 25px; cursor: pointer; border-radius: 5px; " ><br><br>
+     <input type="text" placeholder="enter your email" id="emai" name="em"  style="padding: 5px; width: 250px; height: 25px; cursor: pointer;border-radius: 5px ;"><br><br>
+     <input type="text" placeholder="enter your Username" id="usernm" name="uid" style="padding: 5px; width: 250px; height: 25px; cursor: pointer;border-radius: 5px; "><br><br>
+     <input type="password" placeholder="enter your password" id="pass" name="pwd" style="padding: 5px; width: 250px; height: 25px; cursor: pointer; border-radius: 5px;"><br><br>
+     
+     Male<input type="radio"  name="gender" value="male">
+     
+     Female<input type="radio"  name="gender" value="female">
+    
+     Others<input type="radio"  name="gender" value="other"><br><br>
+
+     <input type="submit" value="signup" onclick="data()" id="butt" style="width: 140px; height: 30px; cursor: pointer; background-color: cornflowerblue; border-radius: 5px; border:1px solid black;">
+
+    </div>
+</center>
+</form>
+
+<script type="text/javascript">
+
+function data()
+{
+	alert("you data might be stored inernally");
+	}
+
+</script>
+
+</body>
+</html>
